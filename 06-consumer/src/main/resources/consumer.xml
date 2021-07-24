@@ -17,4 +17,9 @@
                      registry="N/A"
                      url="dubbo://localhost:20880"
                      id="invokeUserService"/>
+    <bean id="consumerService" class="service.ConsumerService">
+        <property name="orderService" ref="invokeOrderService"></property>
+        <property name="userService" ref="invokeUserService"></property>
+
+    </bean>
 </beans>
