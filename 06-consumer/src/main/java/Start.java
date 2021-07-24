@@ -3,16 +3,14 @@ import com.bjpowernode.model.User;
 import com.bjpowernode.service.OrderService;
 import com.bjpowernode.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import service.ConsumerService;
 
 public class Start {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext cxt =
                 new ClassPathXmlApplicationContext("consumer.xml");
-      OrderService orderService = (OrderService) cxt.getBean("invokeOrderService");
-        UserService userService = (UserService) cxt.getBean("invokeUserService");
-        User user = userService.createUser("孟","202");
-      Order order = orderService.creatOrder("手机","孟");
-      System.out.println(order);
-      System.out.println(user);
+    ConsumerService consumerService= (ConsumerService) cxt.getBean("consumerService");
+   String s = consumerService.buy();
+        System.out.println(s);
     }
 }
