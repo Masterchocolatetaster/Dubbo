@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/01-orderservice-repository/pom.xml" />
         <option value="$PROJECT_DIR$/02-shop-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/01-orderservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/03-common/pom.xml" />
+        <option value="$PROJECT_DIR$/04-userService/pom.xml" />
+        <option value="$PROJECT_DIR$/05-orderService/pom.xml" />
+        <option value="$PROJECT_DIR$/06-consumer/pom.xml" />
       </list>
     </option>
   </component>

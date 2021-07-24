@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-orderservice-provider/01-orderservice-provider.iml" filepath="$PROJECT_DIR$/01-orderservice-provider/01-orderservice-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-shop-consumer/02-shop-consumer.iml" filepath="$PROJECT_DIR$/02-shop-consumer/02-shop-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-common/03-common.iml" filepath="$PROJECT_DIR$/03-common/03-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-userService/04-userService.iml" filepath="$PROJECT_DIR$/04-userService/04-userService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-orderService/05-orderService.iml" filepath="$PROJECT_DIR$/05-orderService/05-orderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-consumer/06-consumer.iml" filepath="$PROJECT_DIR$/06-consumer/06-consumer.iml" />
     </modules>
   </component>
 </project>

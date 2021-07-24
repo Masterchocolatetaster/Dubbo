@@ -7,15 +7,15 @@
         http://dubbo.apache.org/schema/dubbo
         http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-<!--    服务名称唯一值,推荐使用醒目名称-->
-    <dubbo:application name="01-orderservice-repository"/>
-<!--        使用dubbo协议和端口号-->
+    <!--    服务名称唯一值,推荐使用醒目名称-->
+    <dubbo:application name="04-userService"/>
+    <!--        使用dubbo协议和端口号-->
     <dubbo:protocol name="dubbo" port="20880"/>
-<!--    暴漏服务-->
-    <dubbo:service interface="com.bjpowernode.service.OrderService"
-    ref="orderServiceBean"  registry="N/A"/>
-<!--    声明提供者bean-->
-    <bean id="orderServiceBean"
-          class="com.bjpowernode.service.impl.OrderServiceImpl"/>
+    <!--    暴漏服务-->
+    <dubbo:service interface="com.bjpowernode.service.UserService"
+                   ref="userServiceBean"  registry="N/A"/>
+    <!--    声明提供者bean-->
+    <bean id="userServiceBean"
+          class="com.bjpowernode.serviceImpl.UserServiceImpl"/>
 
 </beans>
